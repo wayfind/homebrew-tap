@@ -7,20 +7,20 @@ class IntentEngine < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/wayfind/intent-engine/releases/download/v#{version}/intent-engine-macos-aarch64.tar.gz"
-      sha256 "4cba864f7e0b4125fc811e96f04be299aa8f24b5f1ca921b3abcf3cca53c06af"
+      sha256 "0f53e18ccb6250dc312b5671d9b7fb9a02a476eea5f494c467e9e174289508c3"
     else
       url "https://github.com/wayfind/intent-engine/releases/download/v#{version}/intent-engine-macos-x86_64.tar.gz"
-      sha256 "6e1b70374c7e6fd7726e4e0c4896c328be1bca9b03166ff1b056d87bfeb792fb"
+      sha256 "e7fcdb09e5f027cc8d2ccb8d2835d4df84f324ed17968ba7fe9530bde45e19a9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/wayfind/intent-engine/releases/download/v#{version}/intent-engine-linux-aarch64.tar.gz"
-      sha256 "9ed720d4b1b318c1e18730dbd428f1a3ca5b314bff5b7073bb36d5bddabce864"
+      sha256 "02c0e2f970d4cbe4ab863e60d5e2e6a2b80a357a77ab7869c27631abe26749d5"
     else
       url "https://github.com/wayfind/intent-engine/releases/download/v#{version}/intent-engine-linux-x86_64.tar.gz"
-      sha256 "185753848117515b4094e0f5f280a87cabeef21c076b3cfafdb6b8ecad01fd48"
+      sha256 "73de6fde0f821056e9988359b20b2344a0f49e14dfa07d25a874ff05b3b3abcc"
     end
   end
 
