@@ -1,7 +1,7 @@
 class IntentEngine < Formula
   desc "AI long-term task memory system - cross-session persistence, hierarchical tasks, decision records"
   homepage "https://github.com/wayfind/intent-engine"
-  version "0.10.3"
+  version "0.10.4"
   license "MIT OR Apache-2.0"
 
   on_macos do
